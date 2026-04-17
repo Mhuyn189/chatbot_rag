@@ -13,23 +13,25 @@ Chatbot AI sử dụng RAG (Retrieval-Augmented Generation) để trả lời c�
 - **Frontend:** Next.js, React, Tailwind CSS
 
 ## Cấu trúc thư mục
+```
 intern/
 ├── chatbot_backend/
 │   └── backend/
-│       ├── main.py              
-│       ├── gemini_service.py    
-│       ├── rag_service.py       
-│       ├── database.py          
-│       ├── requirements.txt
-│       └── .env                 # Biến môi trường (không commit)
-└── chatbot_frontend/
+│       ├── main.py
+│       ├── gemini_service.py
+│       ├── rag_service.py
+│       └── database.py
+│   ├── requirements.txt
+│   └── .env  # Biến môi trường (không commit)
+
+├── chatbot_frontend/
 │   └── frontend/
-│       ├── app/             
-│       │   └── page.js   
-│       ├── documents/       
-│       │   └── page.js         
+│       ├── app/
+│       │   └── page.js
+│       ├── documents/
+│       │   └── page.js
 │       └── components/
-          
+```      
 
 ## Cài đặt
 
