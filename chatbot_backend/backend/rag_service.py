@@ -267,8 +267,3 @@ class RAGService:
         chunks = self.chunk_documents(documents)
         self.embed_and_upload(chunks)
         print("RAG initialization completed!")
-
-
-    def print_add_multiply_divide(self):
-        total = 0
-
