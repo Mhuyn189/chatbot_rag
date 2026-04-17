@@ -20,16 +20,16 @@ intern/
 │       ├── main.py
 │       ├── gemini_service.py
 │       ├── rag_service.py
-│       └── database.py
-│   ├── requirements.txt
-│   └── .env  # Biến môi trường (không commit)
+│       ├── database.py
+│       ├── requirements.txt
+│       └── .env  # Biến môi trường (không commit)
 
 ├── chatbot_frontend/
 │   └── frontend/
 │       ├── app/
-│       │   └── page.js
-│       ├── documents/
-│       │   └── page.js
+│       │   ├── page.js
+│       │   └── documents/
+│       │       └── page.js
 │       └── components/
 ```      
 
