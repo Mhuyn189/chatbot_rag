@@ -1,0 +1,25 @@
+# Biến môi trường - chứa API key, tuyệt đối không commit
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Node.js / Next.js
+node_modules/
+.next/
+
+# FastAPI / logs
+*.log
+
+# Database local
+*.db
+
+# Editor
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
