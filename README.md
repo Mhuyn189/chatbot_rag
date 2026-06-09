@@ -88,8 +88,3 @@ npm run dev
 3. Quay lại trang **Chat** -> đặt câu hỏi liên quan đến tài liệu
 4. Chatbot trả lời dựa trên nội dung PDF đã upload
 5. Có thể tạo nhiều session chat, đổi tên hoặc xóa tùy ý
-
-
-## Lưu ý
-- Không commit file `.env` lên GitHub — file này chứa API key bí mật
-- File `.env` đã được thêm vào `.gitignore`
